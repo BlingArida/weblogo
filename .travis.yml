@@ -1,4 +1,8 @@
 language: python
+sudo: required
+dist: xenial
+before_install:
+  - sudo apt-get install -y gs
 python:
   - "3.6"
   - "3.7"
